@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(#ECDCFF, #FFFFFF);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border-radius: 1px solid; */
+}
+
+#navbar .logo img {
+    margin-left: 80px;
+    min-width: 90px;
+    margin-top: 2px;
+    height: 30px;
+}
+
+#navbar .search {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    border: 3px solid rgb(212, 206, 206);
+    border-radius: 10px;
+    align-items: center;
+}
+
+#navbar .search .search-icon img {
+    /* border: 1px solid; */
+    border-right: 1px solid rgb(212, 206, 206);
+    height: 23px;
+    padding: 10px;
+}
+
+#navbar .search .search-bar {
+    width: 800px;
+    height: 40px;
+    /* border: 1px solid; */
+}
+
+#navbar .login-icon img {
+    height: 40px;
+}
+
+#navbar .cart-icon img {
+    height: 40px;
+}
+
+#navbar .search .search-bar .input-box {
+    width: 800px;
+    height: 40px;
+    /* background-color: ; */
+    border-radius: 10px 10px;
+    border: none;
+    font-size: 20px;
+    outline-style: none;
+}
+
+#hero-section {
+    width: 80%;
+    margin: auto;
+    /* margin-right: ; */
+    /* padding: 16px; */
+}
+
+#hero-section img {
+    width: 1190px;
+    /* margin:  */
+}
+
+input:focus {
+    border: none;
+}
