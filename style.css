@@ -6,6 +6,11 @@
 #navbar {
     height: 100px;
     width: 100%;
+    position: fixed;
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
     background: linear-gradient(#ECDCFF, #FFFFFF);
     text-align: center;
     display: flex;
@@ -85,31 +90,36 @@ input:focus {
     align-items: center;
 } */
 
-#item1 .text {
+.item .text {
     /* font-size: 20px; */
     font-weight: bold;
     padding: 20px 0 0 50px;
+    margin: 0 0 25px 0;
     text-transform: capitalize;
 }
 
-#item1 .products {
+.item .products {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* flex-wrap: wrap; */
-    /* align-content: space-around; */
+    flex-wrap: wrap;
+    align-content: space-around;
     margin: 10px;
     padding: 2px;
-    gap: 10px;
+    gap: 5px;
 }
 
-#item1 .products .product img {
-    width: 220px;
+.item .products .product {
+    margin-top: 30px;
+}
+
+.item .products .product img {
+    width: 238px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 190px;
     /* border: 2px solid; */
     border-radius: 5px;
     box-shadow: 5px 5px 5px gray;
@@ -121,8 +131,9 @@ input:focus {
     flex-grow: 2;
 } */
 
-#item1 .products .product .description {
+.item .products .product .description {
     font-weight: bolder;
+    font-size: 20px;
     text-align: center;
     margin: 10px;
     padding: 5px;
